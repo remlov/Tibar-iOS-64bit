@@ -13,7 +13,7 @@ Needed proper 64bit support and overlay support in iOS.
 
 Installation
 --
-In titanium select "Install Mobile Module..." from the "Help" menu then browse and install <b>tibar-iphone-0.4.6.zip</b>.
+In Titanium Studio select "Install Mobile Module..." browse and install <b>tibar-iphone-0.4.6.zip</b>.
 
 API Reference
 --
