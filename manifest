@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.4.6
+description: ZBar Titanium Module
+author: Martin Lasak, Lukasz Radziwonowicz, Hazem Khaled and Ebrahim Abd el-moaty
+license: GNU LGPLv3
+copyright: Copyright (c) 2010
+
+
+# these should not be edited
+name: tibar
+moduleid: tibar
+guid: cc8a85bf-eeee-4af9-a4bc-4315b8e078c3
+platform: iphone
+minsdk: 1.4.2

@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* TibarModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* TibarModule.h */; };
+		24DD6CFA1134B3F500162E58 /* TibarModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* TibarModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* TibarModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* TibarModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* TibarModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* TibarModuleAssets.m */; };
+		2FB4A67612B116D30099C545 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB4A67512B116D30099C545 /* AVFoundation.framework */; };
+		2FB4A67812B116D30099C545 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB4A67712B116D30099C545 /* CoreMedia.framework */; };
+		2FB4A67A12B116D30099C545 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB4A67912B116D30099C545 /* CoreVideo.framework */; };
+		2FB4A67C12B116D30099C545 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB4A67B12B116D30099C545 /* QuartzCore.framework */; };
+		2FB4A67E12B116D30099C545 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB4A67D12B116D30099C545 /* libiconv.dylib */; };
+		A0C9411E12F1D5840076B377 /* Decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C9410512F1D5840076B377 /* Decoder.h */; };
+		A0C9411F12F1D5840076B377 /* Exception.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C9410612F1D5840076B377 /* Exception.h */; };
+		A0C9412012F1D5840076B377 /* Image.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C9410712F1D5840076B377 /* Image.h */; };
+		A0C9412112F1D5840076B377 /* ImageScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C9410812F1D5840076B377 /* ImageScanner.h */; };
+		A0C9412212F1D5840076B377 /* Processor.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C9410912F1D5840076B377 /* Processor.h */; };
+		A0C9412312F1D5840076B377 /* Scanner.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C9410A12F1D5840076B377 /* Scanner.h */; };
+		A0C9412412F1D5840076B377 /* Symbol.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C9410B12F1D5840076B377 /* Symbol.h */; };
+		A0C9412512F1D5840076B377 /* Video.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C9410C12F1D5840076B377 /* Video.h */; };
+		A0C9412612F1D5840076B377 /* Window.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C9410D12F1D5840076B377 /* Window.h */; };
+		A0C9412712F1D5840076B377 /* zbar.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C9410E12F1D5840076B377 /* zbar.h */; };
+		A0C9412812F1D5840076B377 /* ZBarCaptureReader.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C9410F12F1D5840076B377 /* ZBarCaptureReader.h */; };
+		A0C9412912F1D5840076B377 /* ZBarHelpController.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C9411012F1D5840076B377 /* ZBarHelpController.h */; };
+		A0C9412A12F1D5840076B377 /* ZBarImage.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C9411112F1D5840076B377 /* ZBarImage.h */; };
+		A0C9412B12F1D5840076B377 /* ZBarImageScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C9411212F1D5840076B377 /* ZBarImageScanner.h */; };
+		A0C9412C12F1D5840076B377 /* ZBarReaderController.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C9411312F1D5840076B377 /* ZBarReaderController.h */; };
+		A0C9412D12F1D5840076B377 /* ZBarReaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C9411412F1D5840076B377 /* ZBarReaderView.h */; };
+		A0C9412E12F1D5840076B377 /* ZBarReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C9411512F1D5840076B377 /* ZBarReaderViewController.h */; };
+		A0C9412F12F1D5840076B377 /* ZBarSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C9411612F1D5840076B377 /* ZBarSDK.h */; };
+		A0C9413012F1D5840076B377 /* ZBarSymbol.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C9411712F1D5840076B377 /* ZBarSymbol.h */; };
+		A0C9413112F1D5840076B377 /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C9411812F1D5840076B377 /* libzbar.a */; };
+		AA747D9F0F9514B9006C5449 /* Tibar_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* Tibar_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = tibar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* TibarModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TibarModule.h; path = Classes/TibarModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* TibarModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TibarModule.m; path = Classes/TibarModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* TibarModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TibarModuleAssets.h; path = Classes/TibarModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* TibarModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TibarModuleAssets.m; path = Classes/TibarModuleAssets.m; sourceTree = "<group>"; };
+		2FB4A67512B116D30099C545 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2FB4A67712B116D30099C545 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2FB4A67912B116D30099C545 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		2FB4A67B12B116D30099C545 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2FB4A67D12B116D30099C545 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		A0C9410512F1D5840076B377 /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
+		A0C9410612F1D5840076B377 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		A0C9410712F1D5840076B377 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		A0C9410812F1D5840076B377 /* ImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScanner.h; sourceTree = "<group>"; };
+		A0C9410912F1D5840076B377 /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
+		A0C9410A12F1D5840076B377 /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
+		A0C9410B12F1D5840076B377 /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
+		A0C9410C12F1D5840076B377 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		A0C9410D12F1D5840076B377 /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		A0C9410E12F1D5840076B377 /* zbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
+		A0C9410F12F1D5840076B377 /* ZBarCaptureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCaptureReader.h; sourceTree = "<group>"; };
+		A0C9411012F1D5840076B377 /* ZBarHelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarHelpController.h; sourceTree = "<group>"; };
+		A0C9411112F1D5840076B377 /* ZBarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImage.h; sourceTree = "<group>"; };
+		A0C9411212F1D5840076B377 /* ZBarImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImageScanner.h; sourceTree = "<group>"; };
+		A0C9411312F1D5840076B377 /* ZBarReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderController.h; sourceTree = "<group>"; };
+		A0C9411412F1D5840076B377 /* ZBarReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderView.h; sourceTree = "<group>"; };
+		A0C9411512F1D5840076B377 /* ZBarReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
+		A0C9411612F1D5840076B377 /* ZBarSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
+		A0C9411712F1D5840076B377 /* ZBarSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
+		A0C9411812F1D5840076B377 /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzbar.a; sourceTree = "<group>"; };
+		A0C9411A12F1D5840076B377 /* zbar-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-back.png"; sourceTree = "<group>"; };
+		A0C9411B12F1D5840076B377 /* zbar-help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "zbar-help.html"; sourceTree = "<group>"; };
+		A0C9411C12F1D5840076B377 /* zbar-helpicons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-helpicons.png"; sourceTree = "<group>"; };
+		A0C9411D12F1D5840076B377 /* zbar-samples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-samples.png"; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* Tibar_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tibar_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libTibar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTibar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				2FB4A67612B116D30099C545 /* AVFoundation.framework in Frameworks */,
+				2FB4A67812B116D30099C545 /* CoreMedia.framework in Frameworks */,
+				2FB4A67A12B116D30099C545 /* CoreVideo.framework in Frameworks */,
+				2FB4A67C12B116D30099C545 /* QuartzCore.framework in Frameworks */,
+				2FB4A67E12B116D30099C545 /* libiconv.dylib in Frameworks */,
+				A0C9413112F1D5840076B377 /* libzbar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libTibar.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* tibar */ = {
+			isa = PBXGroup;
+			children = (
+				A0C9410112F1D5840076B377 /* ZBarSDK */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = tibar;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				2FB4A67512B116D30099C545 /* AVFoundation.framework */,
+				2FB4A67712B116D30099C545 /* CoreMedia.framework */,
+				2FB4A67912B116D30099C545 /* CoreVideo.framework */,
+				2FB4A67B12B116D30099C545 /* QuartzCore.framework */,
+				2FB4A67D12B116D30099C545 /* libiconv.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				24DE9E0F11C5FE74003F90F6 /* TibarModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* TibarModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* TibarModule.h */,
+				24DD6CF81134B3F500162E58 /* TibarModule.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* Tibar_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		A0C9410112F1D5840076B377 /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A0C9410212F1D5840076B377 /* Headers */,
+				A0C9411812F1D5840076B377 /* libzbar.a */,
+				A0C9411912F1D5840076B377 /* Resources */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		A0C9410212F1D5840076B377 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				A0C9410312F1D5840076B377 /* ZBarSDK */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		A0C9410312F1D5840076B377 /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A0C9410412F1D5840076B377 /* zbar */,
+				A0C9410E12F1D5840076B377 /* zbar.h */,
+				A0C9410F12F1D5840076B377 /* ZBarCaptureReader.h */,
+				A0C9411012F1D5840076B377 /* ZBarHelpController.h */,
+				A0C9411112F1D5840076B377 /* ZBarImage.h */,
+				A0C9411212F1D5840076B377 /* ZBarImageScanner.h */,
+				A0C9411312F1D5840076B377 /* ZBarReaderController.h */,
+				A0C9411412F1D5840076B377 /* ZBarReaderView.h */,
+				A0C9411512F1D5840076B377 /* ZBarReaderViewController.h */,
+				A0C9411612F1D5840076B377 /* ZBarSDK.h */,
+				A0C9411712F1D5840076B377 /* ZBarSymbol.h */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		A0C9410412F1D5840076B377 /* zbar */ = {
+			isa = PBXGroup;
+			children = (
+				A0C9410512F1D5840076B377 /* Decoder.h */,
+				A0C9410612F1D5840076B377 /* Exception.h */,
+				A0C9410712F1D5840076B377 /* Image.h */,
+				A0C9410812F1D5840076B377 /* ImageScanner.h */,
+				A0C9410912F1D5840076B377 /* Processor.h */,
+				A0C9410A12F1D5840076B377 /* Scanner.h */,
+				A0C9410B12F1D5840076B377 /* Symbol.h */,
+				A0C9410C12F1D5840076B377 /* Video.h */,
+				A0C9410D12F1D5840076B377 /* Window.h */,
+			);
+			path = zbar;
+			sourceTree = "<group>";
+		};
+		A0C9411912F1D5840076B377 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0C9411A12F1D5840076B377 /* zbar-back.png */,
+				A0C9411B12F1D5840076B377 /* zbar-help.html */,
+				A0C9411C12F1D5840076B377 /* zbar-helpicons.png */,
+				A0C9411D12F1D5840076B377 /* zbar-samples.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* Tibar_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* TibarModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* TibarModuleAssets.h in Headers */,
+				A0C9411E12F1D5840076B377 /* Decoder.h in Headers */,
+				A0C9411F12F1D5840076B377 /* Exception.h in Headers */,
+				A0C9412012F1D5840076B377 /* Image.h in Headers */,
+				A0C9412112F1D5840076B377 /* ImageScanner.h in Headers */,
+				A0C9412212F1D5840076B377 /* Processor.h in Headers */,
+				A0C9412312F1D5840076B377 /* Scanner.h in Headers */,
+				A0C9412412F1D5840076B377 /* Symbol.h in Headers */,
+				A0C9412512F1D5840076B377 /* Video.h in Headers */,
+				A0C9412612F1D5840076B377 /* Window.h in Headers */,
+				A0C9412712F1D5840076B377 /* zbar.h in Headers */,
+				A0C9412812F1D5840076B377 /* ZBarCaptureReader.h in Headers */,
+				A0C9412912F1D5840076B377 /* ZBarHelpController.h in Headers */,
+				A0C9412A12F1D5840076B377 /* ZBarImage.h in Headers */,
+				A0C9412B12F1D5840076B377 /* ZBarImageScanner.h in Headers */,
+				A0C9412C12F1D5840076B377 /* ZBarReaderController.h in Headers */,
+				A0C9412D12F1D5840076B377 /* ZBarReaderView.h in Headers */,
+				A0C9412E12F1D5840076B377 /* ZBarReaderViewController.h in Headers */,
+				A0C9412F12F1D5840076B377 /* ZBarSDK.h in Headers */,
+				A0C9413012F1D5840076B377 /* ZBarSymbol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* tibar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "tibar" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tibar;
+			productName = tibar;
+			productReference = D2AAC07E0554694100DB518D /* libTibar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "tibar" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* tibar */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* tibar */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DD6CFA1134B3F500162E58 /* TibarModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* TibarModuleAssets.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* tibar */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/Tibar.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Tibar_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ZBarSDK\"",
+				);
+				PRODUCT_NAME = Tibar;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				DSTROOT = /tmp/Tibar.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Tibar_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ZBarSDK\"",
+				);
+				PRODUCT_NAME = Tibar;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "tibar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "tibar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
