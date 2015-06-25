@@ -1,5 +1,5 @@
 Synopsis
-=
+==
 Forked and modified from http://code.google.com/p/tibar to add much needed updates.
 
 * Added proper Overlay support with TiViewProxy
